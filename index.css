@@ -1,0 +1,190 @@
+/* css Reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigation  */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+    /* background-color: rgb(6 5 5); */
+    position:sticky;
+   
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 88%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+
+/* ul list A  */
+
+#navbar ul{
+    display: flex;
+    Margin: 3px 7px;
+    padding: 9px 11px;
+   
+}
+
+ #navbar ul li{
+  list-style: none;
+   font-size: 16px;
+   
+    
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 14px;
+    text-decoration: none;
+    border-radius: 11px;
+    margin: 5px 23px;
+    color: antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    
+}
+#navbar ul li a:hover{
+    background-color: rgb(61, 42, 224);
+}
+
+
+/* home section  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 71px 160px;
+    justify-items: center;
+    align-items: center;
+    
+}
+#home::before{
+    content: " ";
+    background: url("food 2.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+    opacity: 0.789;
+    top: 0%;
+    left: 0%;
+    
+}
+.HP{
+    color: aliceblue;
+    margin: 5px 10px;
+    padding: 6px 11px;
+    font-size: 55px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+/* service section  */
+.name h1{
+    font-size: 45px;
+    color: #142222;
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 11px 10px;
+}
+
+#service{
+    display: flex;
+    /* flex-direction: inherit; */
+    border: 2px solid brown;
+    margin: 26px 20px;
+    padding: 41px 18px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.box h2{
+    font-size: 35px;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: center;
+}
+
+ .did{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* contact us */
+
+.us h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    width: 221px;
+    display: block;
+    margin: auto;
+    padding: 40px 12px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+
+}
+#contact::before{
+    content: " ";
+    background: url(food\ 3.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 65%;
+    left: 0%;
+}
+
+#contact h2{
+
+   font-size: 30px;
+    text-align: center;
+}
+ 
+#foll img{
+    height: 80vh;
+    width: 98vw;
+
+}
+
+.follow h1{
+    font-size: 35px;
+    width: 175px;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+/* utility box  */
+#btn{
+    padding: 8px 14px;
+    margin: 7px 10px;
+    border: 1px solid red;
+    background-color: rgb(201, 171, 132);
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#btn:hover{
+    background-color: brown;
+}
+
+.the{
+    color:rgb(198, 227, 252);
+    font-size: 20px;
+    text-align: center;
+}
